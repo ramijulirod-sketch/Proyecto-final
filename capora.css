@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a;
+  color: white;
+    font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+  
+
+  background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/b424d0105922547.5f8460797773c.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  background-repeat: no-repeat;
+}
+
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* oscurece la imagen */
+  z-index: -1;
+}
+
+.navbar {
+  background-color: #0d0d40;
+  border-bottom: 3px solid gold;
+}
+
+.navbar-brand {
+  color: gold !important;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: gold !important;
+}
+
+.nav-link.active {
+  color: gold !important;
+  font-weight: bold;
+}
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+}
+
+.pagina {
+  display: none;
+}
+
+.pagina.activa {
+  display: block;
+}
+
+
+.hero {
+
+  text-align: center;
+  padding: 80px 20px;
+  body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+  
+
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgbJEClyD0xSR6r68Xt2ilX9Q4XedkLrPRew&shttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgbJEClyD0xSR6r68Xt2ilX9Q4XedkLrPRew&shttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgbJEClyD0xSR6r68Xt2ilX9Q4XedkLrPRew&s');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  background-repeat: no-repeat;
+}
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: gold;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  color: #ccc;
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+
+.hero .badge-unesco {
+  background-color: gold;
+  color: black;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.seccion-danzas {
+  padding: 50px 20px;
+  
+}
+
+.seccion-danzas h2 {
+  text-align: center;
+  color: gold;
+  margin-bottom: 30px;
+}
+
+.card {
+  background-color: #212121;
+  border: 1px solid #444;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: rgb(0, 255, 200);
+}
+
+.card-title {
+  color: rgb(119, 18, 26);
+}
+
+.card-text {
+  color: #ccc;
+}
+
+
+footer {
+  background-color: #000;
+  text-align: center;
+  padding: 20px;
+  color: #666;
+  font-size: 0.85rem;
+  border-top: 2px solid #333;
+}

@@ -1,0 +1,212 @@
+/* ===== ESTILOS GENERALES ===== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a;
+  color: white;
+    font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+  
+  /* Imagen de fondo */
+  background-image: url('https://boliviateca.com/wp-content/uploads/2024/05/Oruro.webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* efecto parallax */
+  background-repeat: no-repeat;
+}
+
+
+/* Para que se lea el texto, ponle overlay oscuro */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* oscurece la imagen */
+  z-index: -1;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  background-color: #0d0d40;
+  border-bottom: 3px solid gold;
+}
+
+.navbar-brand {
+  color: gold !important;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: gold !important;
+}
+
+.nav-link.active {
+  color: gold !important;
+  font-weight: bold;
+}
+
+/* ===== LOGO ===== */
+.logo-img {
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+}
+
+/* ===== PÁGINAS (mostrar/ocultar) ===== */
+.pagina {
+  display: none;
+}
+
+.pagina.activa {
+  display: block;
+}
+
+/* ===== HERO / PORTADA ===== */
+.hero {
+
+  text-align: center;
+  padding: 80px 20px;
+  body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+  
+  /* Imagen de fondo */
+  background-image: url('https://boliviateca.com/wp-content/uploads/2024/05/Oruro.webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* efecto parallax */
+  background-repeat: no-repeat;
+}
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: gold;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  color: #ccc;
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+
+.hero .badge-unesco {
+  background-color: gold;
+  color: black;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+/* ===== SECCIÓN DE DANZAS (cards) ===== */
+.seccion-danzas {
+  padding: 50px 20px;
+  
+}
+
+.seccion-danzas h2 {
+  text-align: center;
+  color: gold;
+  margin-bottom: 30px;
+}
+
+.card {
+  background-color: #222;
+  border: 1px solid #444;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: gold;
+}
+
+.card-title {
+  color: gold;
+}
+
+.card-text {
+  color: #ccc;
+}
+
+/* ===== PÁGINAS DE DANZAS ===== */
+.danza-header {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.danza-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.danza-header p {
+  font-size: 1rem;
+  color: #ddd;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Color de fondo por danza */
+.header-diablada  { background-color: #3b0000; }
+.header-morenada  { background-color: #1a003b; }
+.header-caporal   { background-color: #3d1c00; }
+.header-toba      { background-color: #002000; }
+.header-tinku     { background-color: #001530; }
+
+/* Color de título por danza */
+.header-diablada h1  { color: #ff6b6b; }
+.header-morenada h1  { color: #ce93d8; }
+.header-caporal h1   { color: #ffcc80; }
+.header-toba h1      { color: #a5d6a7; }
+.header-tinku h1     { color: #90caf9; }
+
+/* ===== CONTENIDO DE DANZAS ===== */
+.danza-contenido {
+  padding: 40px 20px;
+  background-color: #1a1a1a;
+}
+
+.danza-contenido h3 {
+  color: gold;
+  border-bottom: 1px solid #444;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+}
+
+.danza-contenido p {
+  color: #ccc;
+  line-height: 1.7;
+}
+
+.danza-contenido ul {
+  color: #ccc;
+  line-height: 2;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background-color: #000;
+  text-align: center;
+  padding: 20px;
+  color: #666;
+  font-size: 0.85rem;
+  border-top: 2px solid #333;
+}
